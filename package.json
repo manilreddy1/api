@@ -2,5 +2,12 @@
   "name": "vehicle-dashboard",
   "version": "1.0.0",
   "description": "Vehicle Intelligence Dashboard",
-  "main": "index.html"
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "engines": {
+    "node": "18.x"
+  }
 }
